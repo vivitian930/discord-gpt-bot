@@ -34,7 +34,7 @@ client.once("ready", async () => {
             name: "number",
             description: "Number of prompts to generate",
             type: 3,
-            required: false // Set the argument as required
+            required: false
           }
         ]
       },
@@ -46,13 +46,13 @@ client.once("ready", async () => {
             name: "prompt",
             description: "A complete prompt from user",
             type: 3,
-            required: true // Set the argument as required
+            required: true
           },
           {
             name: "number",
             description: "Number of prompts to generate",
             type: 3,
-            required: false // Set the argument as required
+            required: false
           }
         ]
       },
@@ -68,18 +68,6 @@ client.once("ready", async () => {
           }
         ]
       }
-      //   {
-      //     name: "server",
-      //     description: "Get server info"
-      //   },
-      //   {
-      //     name: "user-info",
-      //     description: "Get user info"
-      //   },
-      //   {
-      //     name: "help",
-      //     description: "List available commands"
-      //   }
     ];
 
     const commandData = commands.map((command) => ({
