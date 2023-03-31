@@ -1,14 +1,16 @@
 # Changelog
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
-
-## [0.4.0](https://github-vivi/vivitian930/discord-gpt-bot/compare/v0.3.0...v0.4.0) (2023-03-31)
-
-# Changelog
-
 ## [Unreleased](https://github.com/vivitian930/discord-gpt-bot/tree/HEAD)
 
-[Full Changelog](https://github.com/vivitian930/discord-gpt-bot/compare/v0.3.0...HEAD)
+[Full Changelog](https://github.com/vivitian930/discord-gpt-bot/compare/v0.4.0...HEAD)
+
+**Merged pull requests:**
+
+- Feature/mocking user prompt [\#4](https://github.com/vivitian930/discord-gpt-bot/pull/4) ([vivitian930](https://github.com/vivitian930))
+
+## [v0.4.0](https://github.com/vivitian930/discord-gpt-bot/tree/v0.4.0) (2023-03-31)
+
+[Full Changelog](https://github.com/vivitian930/discord-gpt-bot/compare/v0.3.0...v0.4.0)
 
 **Merged pull requests:**
 
