@@ -2,21 +2,28 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [0.2.1](https://github-vivi/vivitian930/discord-gpt-bot/compare/v0.2.0...v0.2.1) (2023-03-30)
+## [0.3.0](https://github-vivi/vivitian930/discord-gpt-bot/compare/v0.2.1...v0.3.0) (2023-03-31)
 
 # Changelog
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+## [v0.2.1](https://github.com/vivitian930/discord-gpt-bot/tree/v0.2.1) (2023-03-30)
 
-# Changelog
+[Full Changelog](https://github.com/vivitian930/discord-gpt-bot/compare/v0.2.0...v0.2.1)
 
-## [Unreleased](https://github.com/vivitian930/discord-gpt-bot/tree/HEAD)
+## [v0.2.0](https://github.com/vivitian930/discord-gpt-bot/tree/v0.2.0) (2023-03-30)
 
-[Full Changelog](https://github.com/vivitian930/discord-gpt-bot/compare/2bdbdf6319ced82f1f6b28a61efb2d38c08818a1...HEAD)
+[Full Changelog](https://github.com/vivitian930/discord-gpt-bot/compare/v0.1.0...v0.2.0)
 
 **Merged pull requests:**
 
 - test server commands [\#2](https://github.com/vivitian930/discord-gpt-bot/pull/2) ([vivitian930](https://github.com/vivitian930))
+
+## [v0.1.0](https://github.com/vivitian930/discord-gpt-bot/tree/v0.1.0) (2023-03-30)
+
+[Full Changelog](https://github.com/vivitian930/discord-gpt-bot/compare/2bdbdf6319ced82f1f6b28a61efb2d38c08818a1...v0.1.0)
+
+**Merged pull requests:**
+
 - initial commit [\#1](https://github.com/vivitian930/discord-gpt-bot/pull/1) ([vivitian930](https://github.com/vivitian930))
 
 
