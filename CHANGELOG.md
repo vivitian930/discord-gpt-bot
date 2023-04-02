@@ -1,5 +1,11 @@
 # Changelog
 
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [0.4.2](https://github-vivi/vivitian930/discord-gpt-bot/compare/v0.4.1...v0.4.2) (2023-04-02)
+
+# Changelog
+
 ## [Unreleased](https://github.com/vivitian930/discord-gpt-bot/tree/HEAD)
 
 [Full Changelog](https://github.com/vivitian930/discord-gpt-bot/compare/v0.4.0...HEAD)

@@ -126,7 +126,7 @@ client.on("interactionCreate", async (interaction) => {
     } else if (commandName === "gpt_mock") {
       const num = options.getString("number")
         ? options.getString("number")
-        : "3";
+        : "2";
       const user_prompt = options.getString("prompt");
       const message = [
         {
@@ -145,7 +145,12 @@ client.on("interactionCreate", async (interaction) => {
         model: "gpt-3.5-turbo",
         messages: message
       });
-      await interaction.editReply(response.data.choices[0].message.content);
+      await interaction.editReply(
+        "User Prompt: " +
+          user_prompt +
+          `\n\n` +
+          response.data.choices[0].message.content
+      );
     } else if (commandName === "gpt_complete") {
       const concept = options.getString("concept");
       const message = [
@@ -170,7 +175,12 @@ client.on("interactionCreate", async (interaction) => {
         model: "gpt-3.5-turbo",
         messages: message
       });
-      await interaction.editReply(response.data.choices[0].message.content);
+      await interaction.editReply(
+        "Concept: " +
+          concept +
+          "\n\n" +
+          response.data.choices[0].message.content
+      );
     }
   } catch (err) {
     await interaction.editReply(err.message);
