@@ -26,8 +26,11 @@ npm start
 ## Commands for the bot
 
 1. `/gpt_random` - generate {number = 3} random prompts
-2. `/gpt_mock` - generate {number = 3} similar prompts based on user input prompt
+   ![gpt_random](/images/gpt_random.png)
+2. `/gpt_mock` - generate {number = 2} similar prompts based on user input prompt
+   ![gpt_mock](/images/gpt_mock.png)
 3. `/gpt_complete` - generate {number = 3} prompts based on user provided concept
+   ![gpt_complete](/images/gpt_complete.png)
 
 ## Deploy at scale
 
