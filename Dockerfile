@@ -15,7 +15,7 @@ RUN addgroup -g 1001 -S appuser && adduser -u 1001 -S appuser -G appuser
 
 COPY ./package*.json ./
 
-RUN npm install && chown -R appuser:appuser /app
+RUN apk update && apk add -u openssl && npm install && chown -R appuser:appuser /app
 
 USER appuser
 
